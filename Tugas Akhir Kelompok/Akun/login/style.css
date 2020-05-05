@@ -1,0 +1,47 @@
+*{
+   margin: 0;
+   padding: 0;
+   background: url(img/pemandangan.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+.container{
+   padding: 30px;
+   position: absolute;
+   display: flex;
+   width: 0 auto;
+   height: 0 auto;
+   text-align: center;
+  justify-content: center;
+  left: 38%;
+  top: 25%;
+  box-shadow: 0px 1px 4px 4px black;
+
+}
+
+.container p{
+   margin: 10px;
+   
+}
+
+.container input{
+   padding: 5px;
+   box-shadow: 0px 1px 4px 4px black;
+}
+
+.container h1{
+   padding: 15px;
+   
+}
+
+#btn{
+   margin-top: 20px;
+   width: 250px;
+   box-shadow: 0px 1px 4px 4px black;
+}
+
+.echo{
+   color: white;
+}

@@ -1,0 +1,314 @@
+body {
+		margin: 0;
+		padding: 20px;
+		background-color: black;
+		font-family: sans-serif;
+	}
+
+	.container{
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.header {
+		border: 1px solid transparent;
+		width: 100%;
+		border-radius: 20px;
+		box-shadow: 0px 2.5px 5px 15px #667369;
+		background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin-left: 8px;
+		margin-top: 8px;
+		margin-right: 8px;
+		margin-bottom: 25px;
+	}
+			
+	.header img{
+		width: 100%;
+		height: 300px;
+		position: relative;
+		margin-top: 10px;
+		border-radius: 25px;
+	}
+	/*headerbutton*/
+	.headerbutton{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		height: 30px;
+		border-top: 1px transparent;
+		word-spacing: 40px;
+		padding-top: 15px;	
+		font-weight: bold;
+	}
+
+	.headerbutton a{
+		border: 1px transparent;
+		color: white;
+		text-decoration: none;
+		padding: 5px;
+		border-radius: 10px;
+	}
+
+	.headerbutton a:hover{
+		color: white;
+		background-color: #667369;
+		/*headerbutton*/
+
+		/*tomboltukarpoint kanan atas*/
+	}
+	.tomboltukarpoint li{
+		float: right;
+		list-style-type: none;
+		margin-right: 30px;
+		border:1px transparent;
+		padding: 5px;
+		margin-top: -5px;
+		color: white;
+		border-radius: 10px;
+		font-weight: bold;
+	}
+
+	.tomboltukarpoint li:hover{
+		background-color: #667369;	
+	}
+
+	.tomboltukarpoint a{
+		text-decoration: none;
+		color: white;
+	}
+
+	.thepoint {
+		border: 10px solid transparent;
+		border-radius: 20px;
+		box-shadow: 0px 2.5px 5px 15px #667369;
+		margin-left: 8px;
+		margin-right: 8px;
+		margin-bottom: 40px;
+		margin-top: 10px;
+		height: 500px;
+		padding-top: 70px;
+	}
+
+	.thepoint h1 {
+		font-size: 32px;
+		line-height: 10px;
+		margin-left: 350px;
+		margin-top: 50px;
+		color: white;
+	}
+
+	.thepoint h2 {
+		font-size: 16px;
+		margin-left: 350px;
+		color: white;
+	}
+
+	.thepoint {
+		background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.box {
+		margin-left: 350px;
+	}
+
+	.box p {
+		color: white;
+	}
+
+	form {
+		margin-top: 50px;
+	}
+
+	.form-control {
+		width: 600px;
+		background: transparent;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid grey;
+		color: black;
+		font-size: 18px;
+		margin-bottom: 16px;
+		background-color: white;
+		padding: 5px;
+	}
+
+	input {
+		height: 45px;
+	}
+
+	form .submit {
+		background-color: #ff5722;
+		border-color: transparent;
+		color: #fff;
+		font-size: 20px;
+		letter-spacing: 2px;
+		height: 50px;
+		margin-top: 20px;
+		transition: 0.4s ease;
+	}
+
+	form .submit:hover {
+		background-color: #f44336;
+		cursor: pointer;
+	}
+
+	.menu-button {
+		background-color: orange;
+		color: #fff;
+		padding: 16px;
+		font-size: 16px;
+		cursor: pointer;
+		border: 1px solid #fff;
+	}
+
+	.menu-button:hover {
+		background-color: yellow;
+	}
+
+	.right-menu {
+		position: relative;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.dropdown-menu {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0 8px 16px 0px rgba(00,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-menu a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		font-size: 11px;
+	}
+
+	.dropdown-menu a:hover {
+		background-color: #000;
+		color: #fff;
+	}
+
+	.right-menu:hover .dropdown-menu {
+		display: block;
+	}
+
+	.right-menu:hover .menu-button {
+		background: transparent;
+	}
+
+	.thefooter{
+		background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		width: 100%;
+		margin-top: 12px;
+		box-shadow: 0px 2.5px 5px 15px #667369;
+		border-radius: 20px;
+	}
+
+	.kiri p{
+		line-height: 1;
+		color: white;
+		font-size: 40px;
+		text-shadow: 2px 2px blue;
+		margin-top: 0;
+	}
+
+	.kiri {
+		flex: 0 0 15%;
+		max-width: 15%;
+		text-align: center;
+		padding-top: 50px;
+		border-radius: 15px 0 0 15px;
+	}
+
+	.kanan{
+		flex: 0 0 84.69%;
+		max-width: 84.69%;
+		text-align: center;
+		border-radius: 0 15px 15px 0;
+	}
+
+	.kanan a{
+		text-decoration: underline;
+		color: white;
+		line-height: 125px;
+	}
+
+	.kanan a:hover{
+		color: blue;
+	}
+
+	.kanan p{
+		margin-top: -20px;
+		color: white;
+	}
+
+	.social-media {
+		margin-top: -50px;
+	}
+
+	.social-media img{
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+@media(max-width: 1080px){
+	.thebody{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.barisan1, .barisan2{
+		max-width: 720px;
+	}
+
+	.gmbr{
+		flex: 0 0 100%;
+		max-width: 100%;
+		width: 100px;
+	}
+
+	.gmbr img{
+		max-width: 100%;
+		width: auto;
+		height: auto;
+	}
+
+	.thefooter{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.kiri{
+		width: 100%;
+	}
+
+	.kanan{
+		width: 100%;
+
+	}
+}

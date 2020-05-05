@@ -1,0 +1,191 @@
+html{
+		margin: 0;
+		padding: 20px;
+		box-sizing: border-box;
+		cursor: pointer;
+	}
+	body{
+		background-color: black;
+		font-family: sans-serif;
+	}
+
+	.container{
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.header {
+		border: 1px solid transparent;
+		width: 100%;
+		border-radius: 20px;
+		box-shadow: 0px 2.5px 5px 15px #667369;
+		background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+			
+	.header img{
+		width: 100%;
+		height: 300px;
+		position: relative;
+		margin-top: 10px;
+		border-radius: 25px;
+	}
+/*headerbutton*/
+	.headerbutton{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		height: 30px;
+		border-top: 1px transparent;
+		word-spacing: 40px;
+		padding-top: 15px;	
+		font-weight: bold;
+
+	}
+
+	.headerbutton a{
+		border: 1px transparent;
+		color: white;
+		text-decoration: none;
+		padding: 5px;
+		border-radius: 10px;
+
+	}
+	.headerbutton a:hover{
+		color: white;
+		background-color: #667369;
+		/*headerbutton*/
+
+
+		/*tomboltukarpoint kanan atas*/
+	}
+	.tomboltukarpoint li{
+		float: right;
+		list-style-type: none;
+		margin-right: 30px;
+		border:1px transparent;
+		padding: 5px;
+		margin-top: -5px;
+		color: white;
+		border-radius: 10px;
+		font-weight: bold;
+	}
+
+	.tomboltukarpoint li:hover{
+		background-color: #667369;	
+	}
+
+	.tomboltukarpoint a{
+	text-decoration: none;
+	color: white;
+	}
+/*tomboltukarpoint kanan atas*/
+
+
+
+.thebody{
+	width: 100%;
+	height: 0 auto;
+	border: 1px transparent;
+	margin-top: 40px;
+	border-radius: 20px;
+	box-shadow: 0px 2.5px 5px 15px #667369;
+	background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	padding: 20px 0 20px 0;
+	display: flex;
+	width: 1300px;
+    height: 350px;
+   	justify-content: center;
+}
+
+.thebody p, h1, h2 {
+	color: white;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.box-1 {
+	flex: 1;
+}
+
+.image img {
+	height: 300px;
+	width: 300px;
+	margin-right: 15px;
+	margin-top: 25px;
+}
+
+.thefooter{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 40px;
+	box-shadow: 0px 2.5px 5px 15px #667369;
+	border-radius: 20px;
+	background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	padding: 20px 0 20px 0;
+	
+}
+
+.kiri p{
+	line-height: 1;
+	color: white;
+	font-size: 40px;
+	text-shadow: 2px 2px blue;
+	margin-top: 0;
+}
+
+.kiri {
+	flex: 0 0 15%;
+	max-width: 15%;
+	text-align: center;
+	padding-top: 50px;
+	border-radius: 15px 0 0 15px;
+}
+
+.kanan{
+	flex: 0 0 84.69%;
+	max-width: 84.69%;
+	text-align: center;
+	border-radius: 0 15px 15px 0;
+}
+
+.kanan a{
+	text-decoration: underline;
+	color: white;
+	line-height: 125px;
+}
+
+.kanan a:hover{
+	color: blue;
+}
+
+.kanan p{
+	margin-top: -20px;
+	color: white;
+}
+
+.social-media {
+	margin-top: -50px;
+}
+
+.social-media img{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}

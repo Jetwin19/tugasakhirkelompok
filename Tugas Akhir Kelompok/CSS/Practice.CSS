@@ -1,0 +1,253 @@
+html{
+		margin: 0;
+		
+		box-sizing: border-box;
+		
+	}
+	body{
+		background-color: black;
+		font-family: sans-serif;
+	}
+
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	.container{
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.header {
+		border: 1px solid transparent;
+		width: 100%;
+		border-radius: 20px;
+		box-shadow: 0px 2.5px 5px 15px #667369;
+		background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 20px;
+	}
+			
+	.header img{
+		width: 100%;
+		height: 300px;
+		position: relative;
+		margin-top: 10px;
+		border-radius: 25px;
+	}
+/*headerbutton*/
+	.headerbutton{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		height: 30px;
+		border-top: 1px transparent;
+		word-spacing: 40px;
+		padding-top: 15px;	
+		font-weight: bold;
+
+	}
+
+	.headerbutton a{
+		border: 1px transparent;
+		color: white;
+		text-decoration: none;
+		padding: 5px;
+		border-radius: 10px;
+
+	}
+	.headerbutton a:hover{
+		color: white;
+		background-color: #667369;
+		/*headerbutton*/
+
+
+		/*tomboltukarpoint kanan atas*/
+	}
+	.tomboltukarpoint li{
+		float: right;
+		list-style-type: none;
+		margin-right: 30px;
+		border:1px transparent;
+		padding: 5px;
+		margin-top: -5px;
+		color: white;
+		border-radius: 10px;
+		font-weight: bold;
+	}
+
+	.tomboltukarpoint li:hover{
+		background-color: #667369;	
+	}
+
+	.tomboltukarpoint a{
+		text-decoration: none;
+		color: white;
+	}
+/*tomboltukarpoint kanan atas*/
+
+
+
+.thebody{
+	height: 0 auto;
+	border: 1px transparent;
+	border-radius: 20px;
+	box-shadow: 0px 2.5px 5px 15px #667369;
+	background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	padding: 20px 0 20px 0;
+	margin: 20px;
+}
+
+.barisan1{
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 0 auto;
+	width: 1080px;
+	margin-top: 40px;
+	width: 100%;
+	margin-left: 200px;
+}
+.gmbr{
+	flex: 0 0 33.33%;
+	text-align: center;
+	max-width: 33.33%;
+}
+.gmbr img{
+	display: block;
+	margin: 0 auto;
+}
+
+.barisan2{
+	flex-wrap: wrap;
+	display: row;
+	flex-direction: row;
+	margin: 0 auto;
+	width: 1080px;
+	margin-top: -753px;
+	width: 100%;
+	margin-left: 600px;
+}
+
+.thebody p{
+	color: white;
+}
+
+.thebody img{
+	width: 200px;
+	height: 200px;
+}
+
+button {
+	height: 50px;
+	float: right;
+	margin-top: -130px;
+	position: center;
+	background-color: #ffd700;
+	font-family: comic sans ms;
+}
+
+button:hover {
+	background-color: #b8860b;
+}
+
+.button1 {
+	height: 50px;
+	float: right;
+	margin-top: -130px;
+	position: center;
+	width: 25%;
+	margin-right: 0 auto;
+	background-color: #ffd700;
+}
+
+.button1:hover {
+	background-color: #b8860b;
+}
+
+.grup1 button {
+	margin-top: -380px;
+	margin-left: 30px;
+}
+
+.grup2 button {
+	margin-top: -630px;
+	margin-left: 30px;
+}
+
+.grup3 button {
+	margin-left: 30px;
+}
+
+.thefooter{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+	margin-top: 40px;
+	box-shadow: 0px 2.5px 5px 15px #667369;
+	border-radius: 20px;
+	background: url(img/barbelhold.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	padding: 20px 0 20px 0;
+	
+}
+
+.kiri p{
+	line-height: 1;
+	color: white;
+	font-size: 40px;
+	text-shadow: 2px 2px blue;
+	margin-top: 0;
+}
+
+.kiri {
+	flex: 0 0 15%;
+	max-width: 15%;
+	text-align: center;
+	padding-top: 50px;
+	border-radius: 15px 0 0 15px;
+}
+
+.kanan{
+	flex: 0 0 84.69%;
+	max-width: 84.69%;
+	text-align: center;
+	border-radius: 0 15px 15px 0;
+}
+
+.kanan a{
+	text-decoration: underline;
+	color: white;
+	line-height: 125px;
+}
+
+.kanan a:hover{
+	color: blue;
+}
+
+.kanan p{
+	margin-top: -20px;
+	color: white;
+}
+
+.social-media {
+	margin-top: -50px;
+}
+
+.social-media img{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
